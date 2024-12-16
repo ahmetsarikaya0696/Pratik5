@@ -18,7 +18,7 @@ else
 
 // Ask the second question
 Console.WriteLine("Dünya'ya en yakın gezegen hangisidir ?\r\na) Venüs b) Mars");
-userAnswer = Console.ReadLine();
+userAnswer = Console.ReadLine()?.ToLower();
 
 // Check if the answer is correct
 if (userAnswer == "a")
@@ -40,7 +40,7 @@ if (correctAnswerCount == 2)
 
 // Ask the third question
 Console.WriteLine("5 * 2 + 8 / 2 - 2 işleminin sonucu kaçtır ?\r\na) 7 b) 12");
-userAnswer = Console.ReadLine();
+userAnswer = Console.ReadLine()?.ToLower();
 
 // Check if the answer is correct
 if (userAnswer == "b")
