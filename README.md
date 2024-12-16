@@ -6,8 +6,7 @@ This is a simple C# console application that asks the user three quiz questions.
 
 - The program asks three multiple-choice questions.
 - It tracks the number of correct answers.
-- If the user answers all the questions correctly, they win a prize.
-- If the user answers incorrectly, they will be informed and given another chance to answer the next question.
+- If the user answers 2 out of 3 questions correctly, they win a prize.
   
 ## Questions
 
