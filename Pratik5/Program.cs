@@ -3,7 +3,7 @@ var correctAnswerCount = 0;
 
 // Ask the first question
 Console.WriteLine("Kızınca tüküren hayvan hangisidir ?\r\na) Lama b) Deve");
-string? userAnswer = Console.ReadLine();
+string? userAnswer = Console.ReadLine()?.ToLower();
 
 // Check if the answer is correct
 if (userAnswer == "a")
